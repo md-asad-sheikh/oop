@@ -1,2 +1,6 @@
 <?php
-echo "ok" . PHP_EOL;
+require_once "./Php.php";
+
+// $php = new Php;
+
+Php::framework();
