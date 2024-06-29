@@ -1,6 +1,8 @@
 <?php
 require_once "./Php.php";
+require_once "./PhpChild.php";
 
-// $php = new Php;
 
-Php::framework();
+// Php::framework();
+
+PhpChild::framework();

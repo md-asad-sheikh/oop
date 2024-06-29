@@ -3,6 +3,11 @@ class Php
 {
     public static function framework()
     {
-        echo "Laravel is a PHP framework" . PHP_EOL;
+        static::frameworkName();
     }
+
+    // public static function frameworkName()
+    // {
+    //     echo "Laravel php framework from " . __CLASS__ . PHP_EOL;
+    // }
 }
