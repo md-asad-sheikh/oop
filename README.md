@@ -1,5 +1,7 @@
 ## Practice all oop concept
 
+#### If autoload is not used, first include the class that is extended __or__ Include where class is extend
+
 ### All list(complete, incomplete)
 1. - [x] Late static binding
     1. Use child class method in super class
