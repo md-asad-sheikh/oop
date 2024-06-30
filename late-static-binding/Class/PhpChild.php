@@ -1,6 +1,5 @@
 <?php
 
-require_once "./Php.php";
 class PhpChild extends Php
 {
     public static function frameworkName()

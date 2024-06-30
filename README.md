@@ -3,6 +3,17 @@
 ### All list(complete, incomplete)
 1. - [x] Late static binding
     1. Use child class method in super class
+```php
+    class ParentClass
+    {
+        public function p1()
+        {
+            echo __CLASS__ . PHP_EOL;
+            echo get_class($this) . PHP_EOL;
+        }
+    }
+```
+
 2. - [] Namespace
 3. - [] Task1
 4. - [] Task1
