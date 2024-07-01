@@ -7,8 +7,10 @@ spl_autoload_register(function ($class_name) {
 });
 
 
-$c1 = new ChildClass;
-$c1->p1();
+// $c1 = new ChildClass;
+// $c1->c1();
+// $c1->p1();
 
-// $p1 = new ParentClass;
-// $p1->p1();
+$p1 = new ParentClass;
+$p1->p1();
+// $p1->c1(); // Get error
